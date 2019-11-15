@@ -1,0 +1,257 @@
+body {
+    background-color: white;
+    font-family: arlette, sans-serif;
+    font-weight: 300;
+}
+.navbar button {
+    border: rgba(101, 211, 181);
+    background:rgba(101, 211, 181, 0.65);
+    color:#fff;
+    font-family: arlette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.navbar button:hover {
+      border:1px solid rgba(101, 211, 181);;
+      background:rgba(101, 211, 181);
+      color:#000;
+    }
+.products{
+    margin-top: 4%;
+}
+.stellarSellers div {
+}
+
+.stores h2{
+    font-family: arlette, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 200%;
+    line-height: 115%;
+    text-align: center;
+    color: #65d3b5;
+}
+.newstore p{
+    font-family: arlette, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 120%;
+    line-height: 120%;
+    text-align: center;
+    color: #65d3b5;
+}
+
+h2{
+    font-family: arlette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 6vw;
+    line-height: 115%;
+    text-align: center;    
+}
+h3{
+    font-family: arlette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+    line-height: 115%;
+    text-align: center;
+}
+.card-img-overlay {
+    background: rgba(142, 142, 142, 0.35);
+}
+h5{
+   font-family: arlette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 8vw;
+    line-height: 115%;
+    text-align: center; 
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+    .description button {
+      border:1px solid #65d3b5;
+      background:rgba(101, 211, 181, 0.58);
+      border-radius: 0;
+      color:#fff;
+        font-family: arlette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    }
+    .description button:hover {
+      border:1px solid #fff;
+      background:#fff;
+      color:#000;
+    }
+ .customer, .address p{
+    font-weight: 300;
+    font-size: 100%;
+    line-height: 80%;
+    }
+.btn-primary {
+    border: rgba(101, 211, 181);
+    background:rgba(101, 211, 181, 0.65);
+}
+.btn-primary:hover {
+      border:1px solid rgba(101, 211, 181);;
+      background:rgba(101, 211, 181);
+      color:#000;
+    }
+.customer a {
+    color: #29a5a5;
+}
+
+    
+
+/*
+font-family: arlette,sans-serif;
+font-weight: 300;
+font-style: normal;
+
+font-family: arlette,sans-serif;
+font-weight: 300;
+font-style: italic;
+
+font-family: arlette,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: arlette,sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: arlette,sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: arlette,sans-serif;
+font-weight: 700;
+font-style: italic;
+*/
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+    .products h2{
+    font-family: arlette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 6vw;
+    line-height: 115%;
+    text-align: center;    
+}
+    
+ .products h5{
+   font-family: arlette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 250%;
+    line-height: 115%;
+    text-align: center; 
+}
+
+    .customer, .address p{
+    font-weight: 300;
+    font-size: 110%;
+    line-height: 85%;
+    }
+    
+    .stores h2{
+    font-family: arlette, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 225%;
+    line-height: 120%;
+    text-align: left;
+    color: #65d3b5;
+}
+.newstore p{
+    font-family: arlette, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 125%;
+    line-height: 130%;
+    text-align: left;
+    color: #65d3b5;
+}
+    
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    
+    .products h2{
+    font-family: arlette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 5vw;
+    line-height: 115%;
+    text-align: center;    
+}
+    
+ .products h5{
+   font-family: arlette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 270%;
+    line-height: 100%;
+    text-align: center; 
+}
+      .stores h2{
+    font-family: arlette, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 240%;
+    line-height: 120%;
+    text-align: left;
+    color: #65d3b5;
+}
+.newstore p{
+    font-family: arlette, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 150%;
+    line-height: 120%;
+    text-align: left;
+    color: #65d3b5;
+}
+    .address p{
+            font-weight: 300;
+        font-size: 100%;
+    line-height: 160%;
+    }
+    
+     .customer, .address p{
+    font-weight: 300;
+    font-size: 110%;
+    line-height: 80%;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .stores h2{
+    font-family: arlette, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 340%;
+    line-height: 120%;
+    text-align: left;
+    color: #65d3b5;
+}
+.newstore p{
+    font-family: arlette, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 200%;
+    line-height: 140%;
+    text-align: left;
+    color: #65d3b5;
+}
+}
