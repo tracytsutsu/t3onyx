@@ -1,2 +1,2 @@
 # t3onyx
-website active/skate/surf fashion
+my first try at bootstrap - website active/skate/surf fashion
